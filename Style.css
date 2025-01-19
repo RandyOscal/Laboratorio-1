@@ -6,7 +6,9 @@
 header{
     background-color: red;
     padding: 20px;
-    text-align: center;    
+    text-align: center;
+    margin: 10;
+    padding: 10;    
 
 }
 
@@ -45,15 +47,14 @@ body{
 }
 
 h1{
-    font-size: 1em;
     text-align: center;
     font-family: 'Arial', sans-serif;
     font-style: italic; 
-    font-size: 36px;
-    text-shadow: 2px 2px 4px rgb(251, 255, 0);}
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgb(251, 255, 0);
+}
 
 h2{
-    font-size: 1em;
     text-align: center;
     font-family: 'Arial', sans-serif;
     font-style: italic; 
@@ -65,14 +66,14 @@ body .aF{
     width: 100%;      
     height: auto; 
     max-width: 1000px;
-    min-height: 0px;
+    min-height: 10px;
     margin-left: 200px;
     box-shadow: 0 0 0 10px rgba(255, 145, 0, 0.788);
+    padding: auto;
     
 
 }
-
-
+              
 body .a{
     
     width: 100%;      
@@ -87,12 +88,11 @@ body .a{
 
 
 footer{
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     color:  antiquewhite;
     text-align: center;
-    padding: 10px;
+    padding: 3px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-
